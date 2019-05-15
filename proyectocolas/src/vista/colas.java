@@ -7,9 +7,16 @@ package vista;
  */
 public class colas {
     
-    public static void main(String[]arg){
-        
-      System.out.print("hola");  
+    private String nombre;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+  
         
         
     }
